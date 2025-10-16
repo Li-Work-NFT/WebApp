@@ -1,0 +1,118 @@
+/* === ui/shop/shop.css === */
+/* Магазин с сеткой товаров в 6x4 и общей цветовой гаммой */
+
+.shop-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e2c9a6;
+    min-height: 100vh;
+    padding: 8px;
+}
+
+.shop-title {
+    font-family: 'Fixedsys', monospace;
+    font-size: 16px;
+    color: #2e2a27;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #8b6b3f;
+}
+
+/* === Сетка товаров === */
+.shop-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 6px;
+    justify-items: center;
+    padding: 10px;
+}
+
+/* === Каждый товар === */
+.shop-slot {
+    width: 64px;
+    height: 64px;
+    border: 2px solid #a37a4d;
+    background-color: #e8d0a7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.shop-slot img {
+    width: 48px;
+    height: 48px;
+    image-rendering: pixelated;
+}
+
+/* === Подпись под товаром === */
+.shop-slot-info {
+    width: 64px;
+    background-color: #d1a86c;
+    border-top: 2px solid #8b6b3f;
+    font-size: 10px;
+    text-align: center;
+    color: #2e2a27;
+    padding: 2px 0;
+}
+
+.shop-slot-info img.coin-icon-small {
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+}
+
+/* === Модальное окно покупки === */
+.shop-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-modal {
+    background-color: #f1dfb5;
+    border: 3px solid #8b6b3f;
+    border-radius: 6px;
+    padding: 10px;
+    width: 280px;
+    text-align: center;
+    font-family: 'Fixedsys', monospace;
+    color: #2e2a27;
+}
+
+.shop-modal-icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 4px;
+    image-rendering: pixelated;
+}
+
+.quantity-input {
+    width: 60px;
+    text-align: center;
+    border: 1px solid #8b6b3f;
+    background-color: #fff3db;
+    font-family: 'Fixedsys', monospace;
+}
+
+.quantity-label {
+    font-size: 11px;
+}
+
+.shop-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.shop-buttons .pixel-btn {
+    width: 110px;
+    font-size: 12px;
+}

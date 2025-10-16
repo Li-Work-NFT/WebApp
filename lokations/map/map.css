@@ -1,0 +1,32 @@
+/* === lokations/map/map.css === */
+.map-container {
+    background-color: #e2c9a6;
+    min-height: 100vh;
+    font-family: 'Fixedsys', monospace;
+    color: #2e2a27;
+    padding: 8px;
+}
+
+.map-title {
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 2px solid #8b6b3f;
+    margin-bottom: 8px;
+}
+
+.map-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    justify-items: center;
+}
+
+.map-location {
+    background-color: #e8d0a7;
+    border: 2px solid #a37a4d;
+    padding: 6px;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 11px;
+}

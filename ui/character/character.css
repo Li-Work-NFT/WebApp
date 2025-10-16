@@ -1,0 +1,16 @@
+/* === ui/character/character.css === */
+.character-container {
+    background-color: #e2c9a6;
+    min-height: 100vh;
+    color: #2e2a27;
+    font-family: 'Fixedsys', monospace;
+    padding: 8px;
+}
+
+.character-info {
+    background-color: #e8d0a7;
+    border: 2px solid #a37a4d;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+}

@@ -1,0 +1,22 @@
+/* === lokations/forest/forest.css === */
+.forest-container {
+    background-color: #e2c9a6;
+    min-height: 100vh;
+    color: #2e2a27;
+    font-family: 'Fixedsys', monospace;
+    padding: 8px;
+}
+
+.forest-header {
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 2px solid #8b6b3f;
+    margin-bottom: 8px;
+}
+
+.forest-content {
+    background-color: #e8d0a7;
+    border: 2px solid #a37a4d;
+    padding: 10px;
+    border-radius: 4px;
+}

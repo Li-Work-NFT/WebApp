@@ -1,0 +1,35 @@
+{
+  "equipment": [
+    { "id": "armor_iron", "name": "Железная броня", "price": 120, "icon": "armor_iron.png" },
+    { "id": "armor_leather", "name": "Кожаная броня", "price": 80, "icon": "armor_leather.png" },
+    { "id": "helmet_iron", "name": "Железный шлем", "price": 60, "icon": "helmet_iron.png" },
+    { "id": "helmet_leather", "name": "Кожаная накидка", "price": 40, "icon": "helmet_leather.png" },
+    { "id": "boots_leather", "name": "Кожаные сапоги", "price": 45, "icon": "boots_leather.png" },
+    { "id": "robe_mage", "name": "Мантия мага", "price": 90, "icon": "robe_mage.png" }
+  ],
+  "weapons": [
+    { "id": "sword", "name": "Стальной меч", "price": 100, "icon": "sword.png" },
+    { "id": "axe", "name": "Топор", "price": 70, "icon": "axe.png" },
+    { "id": "bow_wood", "name": "Деревянный лук", "price": 65, "icon": "bow_wood.png" },
+    { "id": "staff_mage", "name": "Магический посох", "price": 90, "icon": "staff_mage.png" },
+    { "id": "shield_wood", "name": "Деревянный щит", "price": 50, "icon": "shield_wood.png" }
+  ],
+  "provisions": [
+    { "id": "bread", "name": "Хлеб", "price": 10, "icon": "bread.png", "stackable": true },
+    { "id": "fish", "name": "Рыба", "price": 12, "icon": "fish.png", "stackable": true },
+    { "id": "meat", "name": "Мясо", "price": 15, "icon": "meat.png", "stackable": true },
+    { "id": "water", "name": "Вода", "price": 8, "icon": "water.png", "stackable": true },
+    { "id": "potion_health", "name": "Зелье лечения", "price": 25, "icon": "potion_health.png" },
+    { "id": "potion_mana", "name": "Зелье маны", "price": 25, "icon": "potion_mana.png" }
+  ],
+  "resources": [
+    { "id": "iron_ore", "name": "Металлическая руда", "price": 20, "icon": "iron_ore.png", "stackable": true },
+    { "id": "stone", "name": "Камень", "price": 5, "icon": "stone.png", "stackable": true },
+    { "id": "wood", "name": "Дерево", "price": 8, "icon": "wood.png", "stackable": true }
+  ],
+  "tools": [
+    { "id": "pickaxe", "name": "Кирка", "price": 40, "icon": "pickaxe.png" },
+    { "id": "shovel", "name": "Лопата", "price": 30, "icon": "shovel.png" },
+    { "id": "fishing_rod", "name": "Удочка", "price": 50, "icon": "fishing_rod.png" }
+  ]
+}

@@ -1,0 +1,31 @@
+/* === lokations/village/village.css === */
+.village-container {
+    background-color: #e2c9a6;
+    min-height: 100vh;
+    font-family: 'Fixedsys', monospace;
+    color: #2e2a27;
+    padding: 8px;
+}
+
+.village-header {
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 2px solid #8b6b3f;
+    margin-bottom: 8px;
+}
+
+.village-options {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+
+.village-option {
+    background-color: #d1a86c;
+    border: 1px solid #8b6b3f;
+    padding: 6px 10px;
+    width: 140px;
+    text-align: center;
+    font-size: 12px;
+}

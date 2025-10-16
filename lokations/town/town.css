@@ -1,0 +1,27 @@
+/* === lokations/town/town.css === */
+.town-container {
+    background-color: #e2c9a6;
+    min-height: 100vh;
+    color: #2e2a27;
+    font-family: 'Fixedsys', monospace;
+    padding: 8px;
+}
+
+.town-header {
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 2px solid #8b6b3f;
+    margin-bottom: 8px;
+}
+
+.town-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+}
+
+.town-buttons .pixel-btn {
+    width: 120px;
+    font-size: 12px;
+}

@@ -1,0 +1,10 @@
+/* Главный меню наследует стиль main.css, здесь можно добавить специфичные стили */
+
+.button-panel {
+    flex-direction: column;
+}
+
+.dialogue-box {
+    font-size: 16px;
+    padding: 12px;
+}
